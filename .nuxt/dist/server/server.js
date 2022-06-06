@@ -439,18 +439,36 @@ module.exports = require("vue-no-ssr");
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/jurnalbijak.5f821b2.svg";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-client-only");
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-router");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Button.vue?vue&type=template&id=0b4c9265&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"block px-3 py-2 rounded-md text-base font-medium hover:scale-110",class:[_vm.outline ? 'bg-white border border-blue-400 text-blue-400' : 'bg-blue-400 text-white'],attrs:{"type":"button","href":_vm.url}},[_vm._ssrNode(_vm._ssrEscape("\n    "+_vm._s(_vm.text)+"\n"))])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Button.vue?vue&type=template&id=91b8f482&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"block px-3 py-2 rounded-md text-base font-medium hover:scale-110",class:[_vm.outline ? 'bg-white border border-blue-400 text-blue-400' : 'bg-blue-400 text-white'],attrs:{"type":"button","href":_vm.url}},[_vm._ssrNode(_vm._ssrEscape("\n    "+_vm._s(_vm.text)+"\n"))])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Button.vue?vue&type=template&id=0b4c9265&
+// CONCATENATED MODULE: ./components/Button.vue?vue&type=template&id=91b8f482&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Button.vue?vue&type=script&lang=js&
 //
@@ -503,28 +521,6 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Button = __webpack_exports__["default"] = (component.exports);
-
-/* nuxt-component-imports */
-installComponents(component, {Button: __webpack_require__(6).default})
-
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/jurnalbijak.5f821b2.svg";
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-client-only");
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-router");
 
 /***/ }),
 /* 10 */
@@ -1442,7 +1438,7 @@ var external_vue_meta_ = __webpack_require__(13);
 var external_vue_meta_default = /*#__PURE__*/__webpack_require__.n(external_vue_meta_);
 
 // EXTERNAL MODULE: external "vue-client-only"
-var external_vue_client_only_ = __webpack_require__(8);
+var external_vue_client_only_ = __webpack_require__(7);
 var external_vue_client_only_default = /*#__PURE__*/__webpack_require__.n(external_vue_client_only_);
 
 // EXTERNAL MODULE: external "vue-no-ssr"
@@ -1450,7 +1446,7 @@ var external_vue_no_ssr_ = __webpack_require__(5);
 var external_vue_no_ssr_default = /*#__PURE__*/__webpack_require__.n(external_vue_no_ssr_);
 
 // EXTERNAL MODULE: external "vue-router"
-var external_vue_router_ = __webpack_require__(9);
+var external_vue_router_ = __webpack_require__(8);
 var external_vue_router_default = /*#__PURE__*/__webpack_require__.n(external_vue_router_);
 
 // CONCATENATED MODULE: ./.nuxt/router.scrollBehavior.js
@@ -2273,7 +2269,7 @@ const layouts = {
   }
 });
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-const Button = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 6)).then(c => wrapFunctional(c.default || c));
+const Button = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c));
 const BaseFooter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
 const BaseNavbar = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
@@ -2896,7 +2892,7 @@ const createNext = ssrContext => opts => {
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/base/Navbar.vue?vue&type=template&id=067943eb&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"bg-white px-6"},[_vm._ssrNode("<div class=\"max-w-7xl mx-auto px-2 sm:px-6 lg:px-8\">","</div>",[_vm._ssrNode("<div class=\"relative flex items-center justify-between h-16\">","</div>",[_vm._ssrNode("<div class=\"flex-1 flex items-center justify-between sm:items-stretch\">","</div>",[_vm._ssrNode("<div class=\"flex-shrink-0 flex items-center\"><img"+(_vm._ssrAttr("src",__webpack_require__(7)))+" alt=\"Jurnalbijak\" class=\"block lg:hidden h-8 w-auto\"> <img"+(_vm._ssrAttr("src",__webpack_require__(7)))+" alt=\"Jurnalbijak\" class=\"hidden lg:block h-8 w-auto\"></div> "),_vm._ssrNode("<div class=\"hidden sm:block sm:ml-6\">","</div>",[_vm._ssrNode("<div class=\"flex justify-between space-x-10\">","</div>",[_vm._ssrNode("<a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Blog</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Demo</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Docs</a> "),_c('Button',{attrs:{"text":"Masuk","url":"https://app.jurnalbijak.com"}})],2)])],2),_vm._ssrNode(" <div class=\"absolute inset-y-0 right-0 flex items-center sm:hidden\"><button type=\"button\" aria-controls=\"mobile-menu\" aria-expanded=\"false\" class=\"inline-flex items-center justify-center p-2 rounded-md text-white bg-blue-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white\"><span class=\"sr-only\">Open main menu</span> <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\""+(_vm._ssrClass("h-6 w-6",[_vm.open ? 'hidden' : 'block']))+"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path></svg> <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\""+(_vm._ssrClass("h-6 w-6",[_vm.open ? 'block' : 'hidden']))+"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\"></path></svg></button></div>")],2)]),_vm._ssrNode(" "),(_vm.open)?_vm._ssrNode("<div class=\"sm:hidden\">","</div>",[_vm._ssrNode("<div class=\"px-2 pt-2 pb-3 space-y-1\">","</div>",[_vm._ssrNode("<a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block py-2 rounded-md text-base font-medium\">Blog</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block py-2 rounded-md text-base font-medium\">Demo</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block pt-2 pb-4 rounded-md text-base font-medium\">Docs</a> "),_c('Button',{attrs:{"url":"#","text":"Masuk"}})],2)]):_vm._e()],2)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"bg-white px-6"},[_vm._ssrNode("<div class=\"max-w-7xl mx-auto px-2 sm:px-6 lg:px-8\">","</div>",[_vm._ssrNode("<div class=\"relative flex items-center justify-between h-16\">","</div>",[_vm._ssrNode("<div class=\"flex-1 flex items-center justify-between sm:items-stretch\">","</div>",[_vm._ssrNode("<div class=\"flex-shrink-0 flex items-center\"><img"+(_vm._ssrAttr("src",__webpack_require__(6)))+" alt=\"Jurnalbijak\" class=\"block lg:hidden h-8 w-auto\"> <img"+(_vm._ssrAttr("src",__webpack_require__(6)))+" alt=\"Jurnalbijak\" class=\"hidden lg:block h-8 w-auto\"></div> "),_vm._ssrNode("<div class=\"hidden sm:block sm:ml-6\">","</div>",[_vm._ssrNode("<div class=\"flex justify-between space-x-10\">","</div>",[_vm._ssrNode("<a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Blog</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Demo</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium\">Docs</a> "),_c('Button',{attrs:{"text":"Masuk","url":"https://app.jurnalbijak.com"}})],2)])],2),_vm._ssrNode(" <div class=\"absolute inset-y-0 right-0 flex items-center sm:hidden\"><button type=\"button\" aria-controls=\"mobile-menu\" aria-expanded=\"false\" class=\"inline-flex items-center justify-center p-2 rounded-md text-white bg-blue-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white\"><span class=\"sr-only\">Open main menu</span> <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\""+(_vm._ssrClass("h-6 w-6",[_vm.open ? 'hidden' : 'block']))+"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path></svg> <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\""+(_vm._ssrClass("h-6 w-6",[_vm.open ? 'block' : 'hidden']))+"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\"></path></svg></button></div>")],2)]),_vm._ssrNode(" "),(_vm.open)?_vm._ssrNode("<div class=\"sm:hidden\">","</div>",[_vm._ssrNode("<div class=\"px-2 pt-2 pb-3 space-y-1\">","</div>",[_vm._ssrNode("<a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block py-2 rounded-md text-base font-medium\">Blog</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block py-2 rounded-md text-base font-medium\">Demo</a> <a href=\"#\" class=\"text-gray-400 hover:text-gray-700 block pt-2 pb-4 rounded-md text-base font-medium\">Docs</a> "),_c('Button',{attrs:{"url":"#","text":"Masuk"}})],2)]):_vm._e()],2)}
 var staticRenderFns = []
 
 
@@ -3053,7 +3049,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Navbar = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents(component, {Button: __webpack_require__(6).default,Button: __webpack_require__(6).default})
+installComponents(component, {Button: __webpack_require__(9).default,Button: __webpack_require__(9).default})
 
 
 /***/ }),
@@ -3065,7 +3061,7 @@ installComponents(component, {Button: __webpack_require__(6).default,Button: __w
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/base/Footer.vue?vue&type=template&id=d1767592&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"p-4 bg-white shadow md:px-6 md:py-8"},[_vm._ssrNode("<div class=\"sm:flex sm:items-center sm:justify-between max-w-7xl mx-auto px-2 sm:px-6 lg:px-8\"><div><a href=\"https://jurnalbijak.com\" class=\"flex items-center mb-4 sm:mb-0\"><img"+(_vm._ssrAttr("src",__webpack_require__(7)))+" alt=\"Jurnalbijak Logo\" class=\"mr-3 h-8\"></a> <div class=\"mt-3\">\n                PT. Jurnalbijak Indonesia\n                <p class=\"text-xs\">\n                    Villa Harmony Banguntapan R-1, Jl. Pleret, Banjardadap,\n                    Potorono, Kec. Banguntapan, Kabupaten Bantul, Daerah\n                    Istimewa Yogyakarta 55194\n                </p></div></div> <ul class=\"flex flex-wrap items-center mb-6 text-sm sm:mb-0\"><li><a href=\"#\" class=\"mr-4 hover:underline md:mr-6\">About</a></li> <li><a href=\"#\" class=\"mr-4 hover:underline md:mr-6\">Syarat &amp; Ketentuan</a></li> <li><a href=\"#\" class=\"hover:underline\">Contact</a></li></ul></div> <hr class=\"my-6 border-gray-200 sm:mx-auto lg:my-8\"> <span class=\"block text-sm text-gray-500 sm:text-center\">© 2022 Jurnalbijak. All Rights Reserved.\n    </span>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"p-4 bg-white shadow md:px-6 md:py-8"},[_vm._ssrNode("<div class=\"sm:flex sm:items-center sm:justify-between max-w-7xl mx-auto px-2 sm:px-6 lg:px-8\"><div><a href=\"https://jurnalbijak.com\" class=\"flex items-center mb-4 sm:mb-0\"><img"+(_vm._ssrAttr("src",__webpack_require__(6)))+" alt=\"Jurnalbijak Logo\" class=\"mr-3 h-8\"></a> <div class=\"mt-3\">\n                PT. Jurnalbijak Indonesia\n                <p class=\"text-xs\">\n                    Villa Harmony Banguntapan R-1, Jl. Pleret, Banjardadap,\n                    Potorono, Kec. Banguntapan, Kabupaten Bantul, Daerah\n                    Istimewa Yogyakarta 55194\n                </p></div></div> <ul class=\"flex flex-wrap items-center mb-6 text-sm sm:mb-0\"><li><a href=\"#\" class=\"mr-4 hover:underline md:mr-6\">About</a></li> <li><a href=\"#\" class=\"mr-4 hover:underline md:mr-6\">Syarat &amp; Ketentuan</a></li> <li><a href=\"#\" class=\"hover:underline\">Contact</a></li></ul></div> <hr class=\"my-6 border-gray-200 sm:mx-auto lg:my-8\"> <span class=\"block text-sm text-gray-500 sm:text-center\">© 2022 Jurnalbijak. All Rights Reserved.\n    </span>")])}
 var staticRenderFns = []
 
 
