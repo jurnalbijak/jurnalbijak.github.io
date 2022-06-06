@@ -1,0 +1,11 @@
+{
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
+  "BaseFooter": {
+    "description": "Auto imported from components/base/Footer.vue"
+  },
+  "BaseNavbar": {
+    "description": "Auto imported from components/base/Navbar.vue"
+  }
+}
