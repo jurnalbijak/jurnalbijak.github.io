@@ -1,6 +1,6 @@
-export const Button = () => import('../..\\components\\Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c))
-export const BaseFooter = () => import('../..\\components\\base\\Footer.vue' /* webpackChunkName: "components/base-footer" */).then(c => wrapFunctional(c.default || c))
-export const BaseNavbar = () => import('../..\\components\\base\\Navbar.vue' /* webpackChunkName: "components/base-navbar" */).then(c => wrapFunctional(c.default || c))
+export { default as Button } from '../..\\components\\Button.vue'
+export { default as BaseFooter } from '../..\\components\\base\\Footer.vue'
+export { default as BaseNavbar } from '../..\\components\\base\\Navbar.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

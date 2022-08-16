@@ -1,5 +1,12 @@
 [
   {
+    "name": "terms-and-conditions",
+    "path": "/terms-and-conditions",
+    "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\terms-and-conditions.vue",
+    "chunkName": "pages/terms-and-conditions",
+    "_name": "_4745f502"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\index.vue",

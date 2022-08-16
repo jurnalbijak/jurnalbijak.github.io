@@ -6,34 +6,36 @@
                     class="flex-1 flex items-center justify-between sm:items-stretch"
                 >
                     <div class="flex-shrink-0 flex items-center">
-                        <img
-                            class="block lg:hidden h-8 w-auto"
-                            :src="require('~/assets/img/logo/jurnalbijak.svg')"
-                            alt="Jurnalbijak"
-                        />
-                        <img
-                            class="hidden lg:block h-8 w-auto"
-                            :src="require('~/assets/img/logo/jurnalbijak.svg')"
-                            alt="Jurnalbijak"
-                        />
+                        <a href="/">
+                            <img
+                                class="block lg:hidden h-8 w-auto"
+                                :src="require('~/assets/img/logo/jurnalbijak.svg')"
+                                alt="Jurnalbijak"
+                            />
+                            <img
+                                class="hidden lg:block h-8 w-auto"
+                                :src="require('~/assets/img/logo/jurnalbijak.svg')"
+                                alt="Jurnalbijak"
+                            />
+                        </a>
                     </div>
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex justify-between space-x-10">
-                            <a
+                            <!-- <a
                                 href="#"
                                 class="text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
                                 >Blog</a
-                            >
+                            > -->
                             <a
-                                href="#"
+                                href="/#demo"
                                 class="text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
                                 >Demo</a
                             >
-                            <a
+                            <!-- <a
                                 href="#"
                                 class="text-gray-400 hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
                                 >Docs</a
-                            >
+                            > -->
                             <Button
                                 text="Masuk"
                                 url="https://app.jurnalbijak.com"

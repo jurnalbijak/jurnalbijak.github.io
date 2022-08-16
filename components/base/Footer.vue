@@ -24,17 +24,17 @@
             <ul
                 class="flex flex-wrap items-center mb-6 text-sm sm:mb-0"
             >
-                <li>
+                <!-- <li>
                     <a href="#" class="mr-4 hover:underline md:mr-6">About</a>
-                </li>
+                </li> -->
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6"
+                    <a href="/terms-and-conditions" class="mr-4 hover:underline md:mr-6"
                         >Syarat & Ketentuan</a
                     >
                 </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
+                <!-- <li>
+                    <a href="/#contact" class="hover:underline">Contact</a>
+                </li> -->
             </ul>
         </div>
         <hr
