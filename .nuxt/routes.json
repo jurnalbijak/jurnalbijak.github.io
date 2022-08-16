@@ -3,14 +3,12 @@
     "name": "terms-and-conditions",
     "path": "/terms-and-conditions",
     "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\terms-and-conditions.vue",
-    "chunkName": "pages/terms-and-conditions",
-    "_name": "_4745f502"
+    "chunkName": "pages/terms-and-conditions"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5f562b98"
+    "chunkName": "pages/index"
   }
 ]
