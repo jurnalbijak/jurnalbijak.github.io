@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_0ae1196a from 'nuxt_plugin_plugin_0ae1196a' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_26ef2492 from 'nuxt_plugin_plugin_26ef2492' // Source: ./components/plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -62,7 +62,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Jurnalbijak.com - Solusi Jurnal Anda","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Easy accounting App build on website #1 in Indonesia"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"}],"style":[],"script":[]},
+    head: {"title":"Jurnalbijak.com - Solusi Jurnal Anda","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Easy accounting App build on website #1 in Indonesia"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.svg"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -176,8 +176,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_0ae1196a === 'function') {
-    await nuxt_plugin_plugin_0ae1196a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_26ef2492 === 'function') {
+    await nuxt_plugin_plugin_26ef2492(app.context, inject)
   }
 
   // Lock enablePreview in context

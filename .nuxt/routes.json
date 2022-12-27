@@ -2,13 +2,15 @@
   {
     "name": "terms-and-conditions",
     "path": "/terms-and-conditions",
-    "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\terms-and-conditions.vue",
-    "chunkName": "pages/terms-and-conditions"
+    "component": "/Users/rhxxx/Projects/web2/pages/terms-and-conditions.vue",
+    "chunkName": "pages/terms-and-conditions",
+    "_name": "_e3f25e80"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\1. Data Kantor\\\\1. Project\\\\1. Jurnalbijak\\\\blog\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/rhxxx/Projects/web2/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6a1bca36"
   }
 ]

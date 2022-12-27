@@ -4,8 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4745f502 = () => interopDefault(import('..\\pages\\terms-and-conditions.vue' /* webpackChunkName: "pages/terms-and-conditions" */))
-const _5f562b98 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _e3f25e80 = () => interopDefault(import('../pages/terms-and-conditions.vue' /* webpackChunkName: "pages/terms-and-conditions" */))
+const _6a1bca36 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -20,11 +20,11 @@ export const routerOptions = {
 
   routes: [{
     path: "/terms-and-conditions",
-    component: _4745f502,
+    component: _e3f25e80,
     name: "terms-and-conditions"
   }, {
     path: "/",
-    component: _5f562b98,
+    component: _6a1bca36,
     name: "index"
   }],
 

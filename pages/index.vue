@@ -450,9 +450,8 @@
             >
                 <div class="text-2xl">
                     <div class="text-white font-semibold">
-                        Ayo, Gunakan sekarang sebelum kiamat.
+                        Coba sekarang dan rasakan perbedaannya untuk bisnis Anda!
                     </div>
-                    <div class="text-base">Mulai Uji Coba Gratis.</div>
                 </div>
                 <div class="whitespace-no-wrap mt-3 sm:mt-0 sm:ml-2">
                     <Button
